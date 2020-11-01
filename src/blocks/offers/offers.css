@@ -1,0 +1,13 @@
+@import url(./__title/offers__title.css);
+@import url(./__swiper-slide-title/offers__swiper-slide-title.css);
+@import url(./__swiper-container/offers__swiper-container.css);
+@import url(./__swiper-wrapper/offers__swiper-wrapper.css);
+@import url(./__swiper-slide/offers__swiper-slide.css);
+@import url(./__slider-control/offers__slider-control.css);
+@import url(./__control/offers__control.css);
+@import url(./__swiper-pagination/offers__swiper-pagination.css);
+
+.offers{
+  max-width: 100%;
+  padding: 168px 351px 0 352px;
+}

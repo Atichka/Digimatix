@@ -1,0 +1,12 @@
+@import url(./__item/menu__item.css);
+@import url(./__item-action/menu__item-action.css);
+@import url(./__offers/menu__offers.css);
+@import url(./__offers-action/menu__offers-action.css);
+
+.menu {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 76px;
+  margin-bottom: 32px;
+}

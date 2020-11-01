@@ -5,6 +5,8 @@
     <title>DIGIMATIX</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
     <link rel="icon" href="<%=require('./images/favicon.png')%>" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
   <div class="page">
@@ -27,7 +29,86 @@
       </div>
       <img class="main__pic" src="<%=require('./images/moon.png')%>" alt="Картинка">
     </section>
+    <section class="offers">
+      <h2 class="offers__title">Вы с нами?</h2>
+      <ui class="menu">
+        <li class="menu__item menu__item-action">
+          <a class="menu__offers menu__offers-action" href="./index.html">Горящие предложения</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__offers" href="./index.html">Все предложения</a>
+        </li>
+        <div class="offers__control">
+          <div class="offers__slider-control offers__button-prev">&#8249;</div>
+          <div class="offers__slider-control offers__button-next">&#8250;</div>
+        </div>
+      </ui>
+      <div class="swiper-container offers__swiper-container">
+        <div class="swiper-wrapper offers__swiper-wrapper">
+          <div class="swiper-slide offers__swiper-slide">
+            <img class="offers__pic" src="<%=require('./images/foto1.png')%>" alt="Фотография">
+            <h3 class="offers__swiper-slide-title">ПАКЕТ ВКЛЮЧЕНО ПОЧТИ ВСЁ</h3>
+            <p class="offers__swiper-slide-paragraph">Разнообразный и богатый опыт
+              дальнейшее развитие различных форм деятельности.
+            </p>
+          </div>
+          <div class="swiper-slide offers__swiper-slide">
+            <img class="offers__pic" src="<%=require('./images/foto2.png')%>" alt="Фотография">
+            <h3 class="offers__swiper-slide-title">ПАКЕТ ВКЛЮЧЕНО ПОЧТИ ВСЁ</h3>
+            <p class="offers__swiper-slide-paragraph">Разнообразный и богатый опыт
+              дальнейшее развитие различных форм деятельности.
+            </p>
+          </div>
+          <div class="swiper-slide offers__swiper-slide">
+            <img class="offers__pic" src="<%=require('./images/foto3.png')%>" alt="Фотография">
+            <h3 class="offers__swiper-slide-title">ПАКЕТ ВКЛЮЧЕНО ПОЧТИ ВСЁ</h3>
+            <p class="offers__swiper-slide-paragraph">Разнообразный и богатый опыт
+              дальнейшее развитие различных форм деятельности.
+            </p>
+          </div>
+          <div class="swiper-slide offers__swiper-slide">
+            <img class="offers__pic" src="<%=require('./images/foto4.png')%>" alt="Фотография">
+            <h3 class="offers__swiper-slide-title">ПАКЕТ ВКЛЮЧЕНО ПОЧТИ ВСЁ</h3>
+            <p class="offers__swiper-slide-paragraph">Разнообразный и богатый опыт
+              дальнейшее развитие различных форм деятельности.
+            </p>
+          </div>
+          <div class="swiper-slide offers__swiper-slide">
+            <img class="offers__pic" src="<%=require('./images/foto1.png')%>" alt="Фотография">
+            <h3 class="offers__swiper-slide-title">ПАКЕТ ВКЛЮЧЕНО ПОЧТИ ВСЁ</h3>
+            <p class="offers__swiper-slide-paragraph">Разнообразный и богатый опыт
+              дальнейшее развитие различных форм деятельности.
+            </p>
+          </div>
+          <div class="swiper-slide offers__swiper-slide">
+            <img class="offers__pic" src="<%=require('./images/foto2.png')%>" alt="Фотография">
+            <h3 class="offers__swiper-slide-title">ПАКЕТ ВКЛЮЧЕНО ПОЧТИ ВСЁ</h3>
+            <p class="offers__swiper-slide-paragraph">Разнообразный и богатый опыт
+              дальнейшее развитие различных форм деятельности.
+            </p>
+          </div>
+          <div class="swiper-slide offers__swiper-slide">
+            <img class="offers__pic" src="<%=require('./images/foto3.png')%>" alt="Фотография">
+            <h3 class="offers__swiper-slide-title">ПАКЕТ ВКЛЮЧЕНО ПОЧТИ ВСЁ</h3>
+            <p class="offers__swiper-slide-paragraph">Разнообразный и богатый опыт
+              дальнейшее развитие различных форм деятельности.
+            </p>
+          </div>
+          <div class="swiper-slide offers__swiper-slide">
+            <img class="offers__pic" src="<%=require('./images/foto4.png')%>" alt="Фотография">
+            <h3 class="offers__swiper-slide-title">ПАКЕТ ВКЛЮЧЕНО ПОЧТИ ВСЁ</h3>
+            <p class="offers__swiper-slide-paragraph">Разнообразный и богатый опыт
+              дальнейшее развитие различных форм деятельности.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
   </div>
   <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>

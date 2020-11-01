@@ -1,0 +1,8 @@
+.offers__control {
+  display: grid;
+  grid-template-columns: 48px 48px;
+  grid-template-rows: 48px;
+  gap: 16px;
+  margin-right: 0;
+  margin-left: auto;
+}

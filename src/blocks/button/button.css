@@ -9,4 +9,10 @@
 
   background: #FFFFFF;
   border-radius: 6px;
+  cursor: url(../../images/Pointer.png),pointer;
+}
+
+.button:hover {
+	transition: opacity 0.3s;
+	opacity: 0.9;
 }

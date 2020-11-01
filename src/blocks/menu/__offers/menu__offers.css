@@ -1,0 +1,14 @@
+.menu__offers {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  cursor: url(../../../images/Pointer.png),pointer;
+  color: #200142;
+}
