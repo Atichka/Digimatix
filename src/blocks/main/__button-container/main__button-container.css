@@ -1,0 +1,7 @@
+.main__button-container {
+  padding: 48px 351px 0 352px;
+  display: grid;
+  grid-template-columns: 156px 48px;
+  grid-gap: 20px;
+  grid-template-rows: 48px;
+}

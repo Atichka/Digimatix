@@ -1,0 +1,13 @@
+@import url(./__text/main__text.css);
+@import url(./__title/main__title.css);
+@import url(./__pic/main__pic.css);
+@import url(./__button-container/main__button-container.css);
+@import url(./__button/main__button.css);
+
+.main {
+  background-image: url(../../images/main.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 198px;
+}

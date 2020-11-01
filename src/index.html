@@ -7,7 +7,27 @@
     <link rel="icon" href="<%=require('./images/favicon.png')%>" type="image/x-icon">
 </head>
 <body>
-    <h1>Hello</h1>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  <div class="page">
+    <section class="main">
+      <header class="header">
+        <a href="./index.html" class="header__logo">
+          <img class="header__logo-pic" src="<%=require('./images/logo.png')%>" alt="Логотип">
+        </a>
+        <button type="button" class="button">Закажите ваш билет</button>
+      </header>
+      <div class="main__text">
+        <h1 class="main__title">До луны и обратно</h1>
+        <p class="paragraph">Задача организации, в особенности же курс на
+          социально-ориентированный национальный проект позволяет оценить значение
+          модели развития.</p>
+      </div>
+      <div class="main__button-container">
+        <button type="button" class="button">Подробнее о нас</button>
+        <button class="main__button"></button>
+      </div>
+      <img class="main__pic" src="<%=require('./images/moon.png')%>" alt="Картинка">
+    </section>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>
