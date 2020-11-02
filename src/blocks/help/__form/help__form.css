@@ -1,0 +1,7 @@
+.help__form {
+  display: grid;
+  grid-template-columns: 256px 256px 256px 256px;
+  grid-template-rows: 72px;
+  gap: 64px;
+  margin-top: 48px;
+}

@@ -1,0 +1,32 @@
+.help__email {
+  border: 1px solid #FFF;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 12px;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #BB6BD9;
+}
+
+.help__email::placeholder {
+  color: #FFF;
+}
+
+.help__email:valid:not(:placeholder-shown) {
+	border-color: #ffdb4d;
+}
+
+.help__email:invalid:not(:placeholder-shown) {
+	border-color: #df4b41;
+}
+
+.help__email:invalid:not(:placeholder-shown) + .help__error {
+	display: block;
+}

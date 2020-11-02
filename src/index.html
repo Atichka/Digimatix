@@ -106,6 +106,31 @@
         <div class="swiper-scrollbar"></div>
       </div>
     </section>
+    <section class="help">
+      <div class="help__text">
+        <h3 class="help__title">Остались вопросы?</h3>
+        <p class="paragraph">Задача организации, в особенности же курс на
+          социально-ориентированный национальный проект позволяет оценить значение
+          модели развития.</p>
+      </div>
+      <form class="help__form" name="help">
+        <div class="help__field">
+          <label for="name" class="help__label">Имя</label>
+          <input class="help__input" type="text" name="name" pattern="^[А-Яа-яЁё\s]+$" placeholder="Иванов Илья" minlength="2" maxlength="20" required />
+          <span class="help__error">имя заполняется кириллицей</span>
+        </div>
+        <div class="help__field">
+          <label for="phone" class="help__label">Телефон</label>
+          <input class="help__input" type="tel" name="phone" placeholder="+7(999)999-99-99" pattern="([\+]\d{1}?[\(]?\d{3}[\)]??[\-]?\d{3}[\-]?\d{2}[\-]?\d{2})|(8\d{10})$" minlength="11" maxlength="18" required/>
+          <span class="help__error">телефон в формате: +7(999)999-99-99</span>
+        </div>
+        <div class="help__field">
+          <input class="help__email" type="email" name="Email" pattern="^((\w{2,}[-.]\w*[-.]*)*|(\w{2,})?)@(\w{2,}\.)+\w{2,8}$" placeholder="E-Mail" minlength='2' maxlength="20" required/>
+          <span class="help__error">e-mail в формате: sega@yandex.ru</span>
+        </div>
+        <button class="help__button">Искать</button>
+      </form>
+    </section>
   </div>
   <script src="<%= htmlWebpackPlugin.files.js %>"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>

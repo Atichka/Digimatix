@@ -1,0 +1,19 @@
+@import url(./__title/help__title.css);
+@import url(./__text/help__text.css);
+@import url(./__input/help__input.css);
+@import url(./__form/help__form.css);
+@import url(./__error/help__error.css);
+@import url(./__email/help__email.css);
+@import url(./__button/help__button.css);
+@import url(./__label/help__label.css);
+
+.help {
+  background-image: url(../../images/help.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #5101A6;
+
+  max-width: 100%;
+  padding: 72px 351px 112px 352px;
+}

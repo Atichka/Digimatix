@@ -1,0 +1,9 @@
+.help__error {
+  display: none;
+  /* position: absolute; */
+	color: #df4b41;
+	text-align: left;
+	font-size: 14px;
+  animation: errors .1s ease-in-out;
+  padding-left: 12px;
+}

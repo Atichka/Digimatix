@@ -1,0 +1,32 @@
+.help__input {
+  border: 1px solid #BB6BD9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 12px;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #BB6BD9;
+}
+
+.help__input::placeholder {
+  color: #BB6BD9;
+}
+
+.help__input:valid:not(:placeholder-shown) {
+	border-color: #ffdb4d;
+}
+
+.help__input:invalid:not(:placeholder-shown) {
+	border-color: #df4b41;
+}
+
+.help__input:invalid:not(:placeholder-shown) + .help__error {
+	display: block;
+}
