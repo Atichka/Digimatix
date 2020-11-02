@@ -1,0 +1,8 @@
+.footer {
+  height: 80px;
+  width: 100%;
+  background: #0B0B0B;
+  mix-blend-mode: multiply;
+  text-align: center;
+  padding-top: 24px;
+}

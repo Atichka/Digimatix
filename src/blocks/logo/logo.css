@@ -1,0 +1,6 @@
+@import url(./__pic/logo__pic.css);
+
+.logo {
+  text-decoration: none;
+	cursor: url(../../images/Pointer.png), pointer;
+}

@@ -12,8 +12,8 @@
   <div class="page">
     <section class="main">
       <header class="header">
-        <a href="./index.html" class="header__logo">
-          <img class="header__logo-pic" src="<%=require('./images/logo.png')%>" alt="Логотип">
+        <a href="./index.html" class="logo">
+          <img class="logo__pic" src="<%=require('./images/logo.png')%>" alt="Логотип">
         </a>
         <button type="button" class="button">Закажите ваш билет</button>
       </header>
@@ -130,6 +130,11 @@
         </div>
         <button class="help__button">Искать</button>
       </form>
+    </section>
+    <section class="footer">
+      <a href="./index.html" class="logo">
+        <img class="logo__pic" src="<%=require('./images/logo.png')%>" alt="Логотип">
+      </a>
     </section>
   </div>
   <script src="<%= htmlWebpackPlugin.files.js %>"></script>
