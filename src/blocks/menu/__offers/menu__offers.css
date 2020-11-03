@@ -2,8 +2,8 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 
   display: flex;
   align-items: center;
@@ -12,3 +12,5 @@
   cursor: url(../../../images/Pointer.png),pointer;
   color: #200142;
 }
+
+

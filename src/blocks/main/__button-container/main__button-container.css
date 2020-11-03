@@ -5,3 +5,24 @@
   grid-gap: 20px;
   grid-template-rows: 48px;
 }
+
+@media screen and (max-width: 1800px) {
+  .main__button-container {
+    padding: 48px 251px 0 252px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .main__button-container {
+    padding: 48px 151px 0 152px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main__button-container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

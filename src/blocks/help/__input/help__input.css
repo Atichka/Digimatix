@@ -10,8 +10,8 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #BB6BD9;
 }
 
@@ -29,4 +29,11 @@
 
 .help__input:invalid:not(:placeholder-shown) + .help__error {
 	display: block;
+}
+
+@media screen and (max-width: 1300px) {
+  .help__input {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
 }

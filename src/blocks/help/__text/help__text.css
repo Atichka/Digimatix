@@ -3,3 +3,9 @@
   margin: auto;
   text-align: center;
 }
+
+@media screen and (max-width: 1280px) {
+  .help__text {
+    width: auto;
+  }
+}

@@ -4,3 +4,17 @@
   grid-gap: 64px;
   position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+  .offers__swiper-wrapper {
+    grid-template-columns: 206px 206px 206px;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offers__swiper-wrapper {
+    grid-template-columns: 156px 156px 156px;
+    gap: 0;
+  }
+}

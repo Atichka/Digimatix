@@ -2,3 +2,25 @@
   padding: 100px 351px 0 352px;
   width: 576px;
 }
+
+@media (min-width: 1601px) and (max-width: 1800px) {
+  .main__text {
+    padding: 100px 251px 0 252px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .main__text {
+    padding-left: 152px;
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main__text {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

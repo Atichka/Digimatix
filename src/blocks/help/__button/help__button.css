@@ -5,7 +5,14 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #FFF;
+}
+
+@media screen and (max-width: 1300px) {
+  .help__button {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
 }

@@ -3,3 +3,9 @@
   margin: 0;
   padding-bottom: 50px;
 }
+
+@media screen and (max-width: 1024px) {
+  .offers__swiper-slide {
+    max-width: 206px;
+  }
+}
